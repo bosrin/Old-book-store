@@ -1,2 +1,1 @@
-# E-Commerce_Frontend_Project
-Responsive Multipage Ecommerce Website Using HTML, CSS &amp; JavaScript.
+site is live at https://bosrin.github.io/Old-book-store/
