@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+     <script src="https://kit.fontawesome.com/215363d7d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/book-logo.jpg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html"> Home </a></li>
+                <li><a href="book.html"> Book </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="singup.php"> Singup </a></li>
+                <li><a href="login.html"> Login </a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <form action="singup.php" method="post" onsubmit="signup()" >
+        <legend>Sing up Form</legend>
+        <br><br>
+        <input type="text" name="name" id="name" class="box" placeholder="enter your name">
+        <br><br>
+        <input type="email" name="email" id="email" class="box" placeholder="enter your email">
+        <br><br>
+        <input type="text" name="contactnumber" id="contact" class="box" placeholder="enter your contact number">
+        <br><br>
+        <input type="password" name="password" id="password" class="box" placeholder="password">
+        <br><br>
+        <span id="para"></span>
+        <input type="password" name="confpassword" id="confpassword" class="box" placeholder="confirm password">
+        <br><br>
+        
+        <input type="submit" value="SAVE" class="sbox">
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>

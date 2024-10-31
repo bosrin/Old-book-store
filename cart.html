@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <script src="https://kit.fontawesome.com/215363d7d3.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/book-logo.jpg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html"> Home </a></li>
+                <li><a class="active" href="book.html"> Book </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="singup.html"> Singup </a></li>
+                <li><a href="login.html"> Login </a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#cart</h2>
+        <p></p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"></a><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/products/book.jpg" alt=""></td>
+                        <td> Old Book store</td>
+                        <td>৳418.19</td>
+                        <td><input type="number" value="1"></td>
+                        <td>৳318.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"></a><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/products/book1.jpg" alt=""></td>
+                        <td> Old Book store</td>
+                        <td>৳558.19</td>
+                        <td><input type="number" value="1"></td>
+                        <td>৳511.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"></a><i class="far fa-times-circle"></i></td>
+                        <td><img src="img/products/book10.jpg" alt=""></td>
+                        <td> Old Book store</td>
+                        <td>৳478.19</td>
+                        <td><input type="number" value="1"></td>
+                        <td>৳518.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Total Books</h3>
+            <table>
+                <tr>
+                    <td>Subtotal Books</td>
+                    <td>৳335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>৳ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/book-logo.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Dhanmondi 12/A,Dhaka, 1209, Bangladesh</p>
+            <p><strong>Phone:</strong>01777608977</p>
+            <p><strong>Hours:</strong> 10:00 am - 10:00 pm,Sat-Thu</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#"> About us </a>
+            <a href="#"> Delivery Information </a>
+            <a href="#"> Privacy Policy </a>
+            <a href="#"> Terms & Conditions </a>
+            <a href="#"> Contact Us </a>
+        </div>
+        
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#"> Sign In </a>
+            <a href="#"> View Cart </a>
+            <a href="#"> My Wishlist </a>
+            <a href="#"> Track My Order </a>
+            <a href="#"> Help </a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, Old book store</p>
+        </div>
+
+    </footer>
+    
+   
+</body>
+</html>
